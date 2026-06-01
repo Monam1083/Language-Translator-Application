@@ -1,0 +1,45 @@
+name: lingua_translate
+description: A beautiful Flutter translation app with voice features
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Translation
+  translator: ^1.0.0
+  
+  # Text to Speech
+  flutter_tts: ^3.8.5
+  
+  # Speech to Text
+  speech_to_text: ^6.6.0
+  
+  # UI & Animations
+  flutter_animate: ^4.3.0
+  google_fonts: ^6.1.0
+  
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  
+  # Connectivity
+  connectivity_plus: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
