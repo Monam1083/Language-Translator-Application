@@ -91,22 +91,7 @@
 | Android SDK | API 21+ |
 | Xcode *(iOS)* | 14+ |
 
-### Installation
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/lingua-translate.git
-cd lingua-translate/translator_app
-
-# 2. Create the assets folder (required)
-mkdir assets
-
-# 3. Install dependencies
-flutter pub get
-
-# 4. Run the app
-flutter run
-```
 
 > **Note:** Voice input (STT) requires a **real physical device**. It may not work on emulators.
 
